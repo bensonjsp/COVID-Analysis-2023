@@ -1,17 +1,17 @@
 # COVID-Analysis-2023
-Motivation:
+**Motivation:**
 I wanted to analyze the relationship between vaccination rates with the number of infections, as well as the number of hospitalisation and ICU admission in Singapore. 
 This led me to gather data from online sources such as data.gov.sg and the World Health Organization, where I filtered out and analyzed the data accordingly into Epiweeks, to better potray my results. I produced the graphs with the help of Python libraries, such as Pandas and Matplotlib. 
 After analyzing the data, I infered that there is some correlation between vaccination rates and the number of infections. The data gathered for number of hospitalisation and ICU admission were limited to 2023, thus I cannot comment with confidence for the set of results shown. The results and code are attached in the repo.
 
-Disclaimer:
+**Disclaimer:**
 Data does not belong to me and is captured near the end of July 2023. It is provided by courtesy from data.gov.sg as well as the World Health Organization (WHO). 
 Data was analyzed to be as accurate as possible, I am not responsible for any losses of any kind if my data were to be used.
 
-Prequisites:
+**Prequisites:**
 1. Change relative path for each CSV file, if needed
 
-Notes:
+**Notes:**
 1. Added column "epi_date_start" and "epi_date_end" in file "NumberofCOVID19infections_by_Epiweek.csv"
 
 2. Vaccination Rate defined as those considered under "Minimum Protection", which consists of 3 doses.
